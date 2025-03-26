@@ -1,0 +1,25 @@
+                              OLS Regression Results                             
+=================================================================================
+Dep. Variable:     log_Total_Emploi_1990   R-squared:                       0.317
+Model:                               OLS   Adj. R-squared:                  0.316
+Method:                    Least Squares   F-statistic:                     229.4
+Date:                   Wed, 26 Mar 2025   Prob (F-statistic):           7.57e-43
+Time:                           23:16:04   Log-Likelihood:                -850.51
+No. Observations:                    496   AIC:                             1705.
+Df Residuals:                        494   BIC:                             1713.
+Df Model:                              1                                         
+Covariance Type:               nonrobust                                         
+===================================================================================
+                      coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+Intercept          10.3864      0.348     29.838      0.000       9.702      11.070
+log_distance_km    -1.5777      0.104    -15.148      0.000      -1.782      -1.373
+==============================================================================
+Omnibus:                       11.972   Durbin-Watson:                   2.081
+Prob(Omnibus):                  0.003   Jarque-Bera (JB):               12.445
+Skew:                           0.388   Prob(JB):                      0.00198
+Kurtosis:                       2.975   Cond. No.                         20.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
